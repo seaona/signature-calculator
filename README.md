@@ -1,7 +1,8 @@
 # Signature Calculator
 
-- [Demo]()
-- [Live project]()
+![Demo](src/static/signature-calculator.png)
+
+[Live project](https://signature-calculator.onrender.com)
 
 ## Run locally
 1. Clone the repository
