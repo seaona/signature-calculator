@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Calculator</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+
+</head>
+<script src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+        charset="utf-8"
+        type="text/javascript">
+</script>
+<script src="/static/js/index.js"></script>
+
+
+<body>
+    <nav class="nav">
+        <a href="https://github.com/seaona/config-your-devnet" class="nav__link" data-link target="_blank">Github</a>
+    </nav>
+    <div id="app"></div>
+    <div id="container">
+        <h1>Signature Calculator</h1>
+        <h3>Enter a Solidity function</h3>
+
+        <div id="input" >
+            <input type="text" id="func-input" value="approve(address,uint256)">
+            <br>
+            <button id="signature-btn" onclick="getSignature()">Get Signature</button>
+        </div>
+        <div id="result-long"></div>
+        <div><span id="result-4bytes"></span></div>
+
+    </div>
+</body>
+</html>
